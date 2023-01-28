@@ -1,5 +1,4 @@
 .landingPage {
-  padding: 84px 15px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -22,15 +21,20 @@
   padding-bottom: 15px;
 }
 
-.landingPage.landingPage-aside {
+.landingPage button:focus, .landingPage button:hover {
+  background: var(--primary-blur);
+  transform: scale(1.1);
+}
+
+.landingPage aside {
   padding: 0 6px;
 }
 
-.landingPage.landingPage-aside img {
+.landingPage aside > img {
   max-width: 100%;
 }
 
-.landingPage.landingPage-aside img:hover {
+.landingPage aside > img:hover {
   filter: drop-shadow(0 0 2em var(--primary-blur));
 }
 
@@ -50,5 +54,4 @@
     width: 240px;
     align-self: flex-start;
   }
-
 }

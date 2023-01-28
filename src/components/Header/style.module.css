@@ -1,0 +1,21 @@
+.defaultHeader {
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.defaultHeader div:nth-child(1) {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.defaultHeader div:nth-child(1) button {
+  width: min-content;
+  padding: 10px 15px;
+  border: 1.4px solid var(--grey-2);
+}
+
+.defaultHeader div:nth-child(1) button:hover,
+.defaultHeader div:nth-child(1) button:focus {
+  background: var(--grey-3);
+  color: var(--grey-1);
+  transform: scale(1.1);
+}

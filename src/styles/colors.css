@@ -7,19 +7,19 @@
 }
 
 .bg-grey-1 {
-  color: var(--grey-1);
+  background: var(--grey-1);
 }
 
 .bg-grey-2 {
-  color: var(--grey-2);
+  background: var(--grey-2);
 }
 
 .bg-grey-3 {
-  color: var(--grey-3);
+  background: var(--grey-3);
 }
 
 .bg-grey-4 {
-  color: var(--grey-4);
+  background: var(--grey-4);
 }
 
 .c-grey-1 {

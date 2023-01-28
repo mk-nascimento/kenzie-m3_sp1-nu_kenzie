@@ -4,14 +4,16 @@ import styles from "./style.module.css";
 export default LandingPage;
 
 function LandingPage({ setPage }) {
+  document.body.classList.add("dark");
+
   function redirect() {
+    document.body.classList.remove("dark");
+
     setPage("home");
   }
 
   return (
-    <div className={styles.landingPage}>
-      {document.body.classList.add("dark")}
-
+    <main className={styles.landingPage}>
       <div className="container d-flex d-flex-column">
         <section>
           <img
@@ -28,13 +30,13 @@ function LandingPage({ setPage }) {
 
           <Button
             aria-label="Home Button"
-            globalClass="bg-primary c-white"
+            globalClass="bg-primary c-white Inter"
             callback={redirect}
             text="Iniciar"
           />
         </section>
 
-        <aside className="landingPage-aside">
+        <aside>
           <img
             src="/src/assets/landing.svg"
             alt="Landing Page Image"
@@ -42,6 +44,6 @@ function LandingPage({ setPage }) {
           />
         </aside>
       </div>
-    </div>
+    </main>
   );
 }
