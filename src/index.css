@@ -1,0 +1,9 @@
+@import url("./styles/reset.css");
+@import url("./styles/global.css");
+@import url("./styles/colors.css");
+@import url("./styles/layout.css");
+@import url("./styles/typography.css");
+
+:root {
+  font-family: 'Nunito', sans-serif;
+}

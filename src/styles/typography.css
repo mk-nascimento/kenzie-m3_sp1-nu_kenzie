@@ -1,0 +1,47 @@
+.title-1 {
+  font-weight: 800;
+  font-size: calc(38rem/16);
+  line-height: 48px;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: calc(22rem/16);
+  line-height: 34px;
+}
+
+.title-3 {
+  font-weight: 700;
+  font-size: calc(16rem/16);
+  line-height: 30px;
+}
+
+.title-4 {
+  font-weight: 600;
+  font-size: calc(12rem/16);
+  line-height: 26px;
+}
+
+.headline {
+  font-weight: 400;
+  font-size: calc(16rem/16);
+  line-height: 26px;
+}
+
+.body {
+  font-weight: 400;
+  font-size: calc(12rem/16);
+  line-height: 22px;
+}
+
+.caption-bold {
+  font-weight: 400;
+  font-size: calc(8rem/16);
+  line-height: 18px;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: calc(8rem/16);
+  line-height: 18px;
+}

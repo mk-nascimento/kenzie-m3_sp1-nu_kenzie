@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.button {
+  border-radius: var(--radius);
+  cursor: pointer;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.button.Inter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: calc(16rem/16);
+  line-height: 19px;
+}
+
+.button.Nunito {
+  font-family: var(--family);
+  font-weight: 600;
+  font-size: calc(14rem/16);
+  line-height: 19px;
+}

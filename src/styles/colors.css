@@ -1,0 +1,43 @@
+.bg-primary {
+  background: var(--primary);
+}
+
+.bg-primary-blur {
+  background: var(--primary-blur);
+}
+
+.bg-grey-1 {
+  color: var(--grey-1);
+}
+
+.bg-grey-2 {
+  color: var(--grey-2);
+}
+
+.bg-grey-3 {
+  color: var(--grey-3);
+}
+
+.bg-grey-4 {
+  color: var(--grey-4);
+}
+
+.c-grey-1 {
+  color: var(--grey-1);
+}
+
+.c-grey-2 {
+  color: var(--grey-2);
+}
+
+.c-grey-3 {
+  color: var(--grey-3);
+}
+
+.c-grey-4 {
+  color: var(--grey-4);
+}
+
+.c-white {
+  color: var(--white);
+}

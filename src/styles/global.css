@@ -1,0 +1,42 @@
+:root {
+  --family: 'Nunito', sans-serif;
+  --primary: #FD377E;
+  --primary-blur: #E34981;
+  --secondary: #03B898;
+  --grey-4: #212529;
+  --grey-3: #868E96;
+  --grey-2: #E9ECEF;
+  --grey-1: #F8F9FA;
+  --white: #FFF;
+  --radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--grey-2);
+}
+
+::-webkit-scrollbar {
+  width: calc(4rem/16);
+  height: calc(4rem/16);
+  /* background-color: red; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 122px;
+  height: 20px;
+}
+
+.dark {
+  background-color: var(--grey-4);
+}
