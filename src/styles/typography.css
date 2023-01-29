@@ -25,7 +25,7 @@
 .headline {
   font-weight: 400;
   font-size: calc(16rem/16);
-  line-height: 26px;
+  user-select: none;
 }
 
 .body {

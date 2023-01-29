@@ -6,3 +6,7 @@
   background: none;
   list-style: none;
 }
+
+input {
+  all: unset;
+}

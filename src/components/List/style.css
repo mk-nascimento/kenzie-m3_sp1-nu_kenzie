@@ -1,0 +1,21 @@
+.aside__aside-list, .aside__empty-list {
+  max-width: 100%;
+}
+
+.aside__empty-list img {
+  max-width: 100%;
+}
+
+.aside-list {
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .aside__aside-list {
+    width: 55%;
+  }
+
+  .aside-list {
+    gap: 32px;
+  }
+}

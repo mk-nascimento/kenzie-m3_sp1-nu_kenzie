@@ -1,0 +1,8 @@
+.input-component,
+.input-component:hover,
+.input-component:focus {
+  outline: none;
+  border: none;
+  border-radius: var(--radius);
+  max-width: 100%;
+}

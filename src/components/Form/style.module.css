@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.homeForm {
+  gap: 18px;
+  border: 1px solid var(--grey-2);
+  border-radius: var(--radius);
+  padding: 38px 24px;
+}
+
+.homeForm label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: calc(12rem/16);
+  color: var(--grey-4);
+}
+
+.formDescriptionPlace {
+  gap: 12px;
+}
+
+.formDescriptionPlace small {
+  margin-top: -8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12rem/16);
+  color: #868E96;
+}
+
+.descriptionInput {
+  padding: 14px 16px;
+}
+
+.formValuePlace {
+  justify-content: space-between;
+}
+
+.valueStyleContainer {
+  width: 100%;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.valueStyleContainer input {
+  width: 85%;
+}
+
+.styleSelect, .valueStyleContainer {
+  padding: 12px 16px;
+}
+
+.valuePlace {
+  max-width: 45%;
+}
+
+.valuePlace, .valuePlaceType {
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.valuePlaceType {
+  max-width: 45%;
+  min-width: 35%;
+}
+
+.homeForm button {
+  padding: 15px 0;
+}

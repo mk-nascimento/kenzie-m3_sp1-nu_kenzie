@@ -1,0 +1,55 @@
+.sideBar__colorType {
+  height: 100%;
+  width: 4px;
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.card-list-item {
+  justify-content: space-between;
+  height: calc(156rem/16);
+  border-radius: var(--radius);
+}
+
+.card-info {
+  width: 100%;
+  padding: 16px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.card-info__data, .value-and-trash {
+  gap: 10px;
+}
+
+.card-button__trash {
+  align-self: flex-start;
+  width: 22px;
+  padding: 4px;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card-button__trash {
+  color: var(--grey-4);
+}
+
+@media screen and (min-width: 768px) {
+  div.card-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  li.card-list-item {
+    height: calc(88rem/16);
+  }
+
+  div.card-info__data {
+    justify-content: space-evenly;
+  }
+
+  div.value-and-trash {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+  }
+}

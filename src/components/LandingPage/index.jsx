@@ -32,7 +32,7 @@ function LandingPage({ setPage }) {
             aria-label="Home Button"
             globalClass="bg-primary c-white Inter"
             callback={redirect}
-            text="Iniciar"
+            content="Iniciar"
           />
         </section>
 

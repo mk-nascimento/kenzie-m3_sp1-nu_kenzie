@@ -1,0 +1,10 @@
+.select-component, .select-component:hover, .select-component:focus {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+option {
+  background: var(--grey-1);
+  color: var(--primary);
+}

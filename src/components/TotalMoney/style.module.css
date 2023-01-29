@@ -1,0 +1,11 @@
+.totalMoney {
+  border: 1px solid var(--grey-2);
+  border-radius: var(--radius);
+  padding: 38px 24px;
+  gap: 8px;
+}
+
+.totalValue {
+  align-items: center;
+  justify-content: space-between;
+}

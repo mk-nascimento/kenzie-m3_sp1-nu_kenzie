@@ -1,11 +1,11 @@
-import "./style.css";
+import styles from "./style.module.css";
 
-export default Home;
-
-function Home({}) {
+function Home({ children }) {
   return (
     <>
-      <main></main>
+      <main className={`${styles.main} d-flex d-flex-column`}>{children}</main>
     </>
   );
 }
+
+export default Home;

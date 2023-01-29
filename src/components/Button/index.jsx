@@ -1,11 +1,11 @@
 import "./style.css";
 
-export default Button;
-
-function Button({ text, callback, globalClass }) {
+function Button({ content, callback, globalClass, type }) {
   return (
-    <button className={`button ${globalClass}`} onClick={callback}>
-      {text}
+    <button type={type} className={`button ${globalClass}`} onClick={callback}>
+      {content}
     </button>
   );
 }
+
+export default Button;

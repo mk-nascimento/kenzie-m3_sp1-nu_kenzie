@@ -1,8 +1,6 @@
 import Button from "../Button/index.jsx";
 import styles from "./style.module.css";
 
-export default Header;
-
 function Header({ callback }) {
   return (
     <header className={`${styles.defaultHeader} bg-grey-1`}>
@@ -16,9 +14,11 @@ function Header({ callback }) {
         <Button
           callback={callback}
           globalClass="Nunito bg-grey-2"
-          text="Inicio"
+          content="Inicio"
         />
       </div>
     </header>
   );
 }
+
+export default Header;
