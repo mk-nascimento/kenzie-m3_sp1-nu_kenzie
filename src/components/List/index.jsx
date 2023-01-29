@@ -15,7 +15,7 @@ function List({ listTransactions = [] }) {
         </aside>
       ) : (
         <aside className="aside__empty-list">
-          <img src="/src/assets/emptyList.svg" alt="empty list" />
+          <img src="src/assets/emptyList.svg" alt="empty list" />
         </aside>
       )}
     </>

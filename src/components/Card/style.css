@@ -31,6 +31,14 @@
 
 .card-button__trash {
   color: var(--grey-4);
+  align-items: center;
+  justify-content: center;
+}
+
+.card-button__trash:focus, .card-button__trash:hover {
+  background-color: var(--grey-3);
+  color: var(--grey-1);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {

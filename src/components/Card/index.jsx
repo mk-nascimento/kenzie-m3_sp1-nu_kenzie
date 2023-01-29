@@ -31,7 +31,7 @@ function Card({ transaction }) {
           <Button
             content={<FaTrash />}
             callback={null}
-            globalClass={"card-button__trash bg-grey-2"}
+            globalClass={"card-button__trash bg-grey-2 d-flex"}
             type="button"
           />
         </div>

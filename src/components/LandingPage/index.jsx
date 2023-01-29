@@ -17,7 +17,7 @@ function LandingPage({ setPage }) {
       <div className="container d-flex d-flex-column">
         <section>
           <img
-            src="/src/assets/nukenzie-white.svg"
+            src="src/assets/nukenzie-white.svg"
             alt="White Logo"
             className="logo"
           />
@@ -38,7 +38,7 @@ function LandingPage({ setPage }) {
 
         <aside>
           <img
-            src="/src/assets/landing.svg"
+            src="src/assets/landing.svg"
             alt="Landing Page Image"
             aria-label="Landing Page Image"
           />

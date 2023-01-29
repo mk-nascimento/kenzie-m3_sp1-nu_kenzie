@@ -7,7 +7,7 @@ function Header({ callback }) {
       <div className="container d-flex d-flex-row">
         <img
           className="logo"
-          src="/src/assets/nukenzie-black.svg"
+          src="src/assets/nukenzie-black.svg"
           alt="Black Logo"
         />
 
