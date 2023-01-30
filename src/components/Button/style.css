@@ -20,3 +20,7 @@
   font-size: calc(14rem/16);
   line-height: 19px;
 }
+
+.button svg {
+  pointer-events: none;
+}

@@ -40,3 +40,7 @@
 .dark {
   background-color: var(--grey-4);
 }
+
+.none {
+  display: none;
+}

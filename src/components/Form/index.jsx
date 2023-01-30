@@ -3,13 +3,13 @@ import Button from "../Button/index.jsx";
 import Select from "../Select/index.jsx";
 import Input from "../Input/index.jsx";
 import { useState } from "react";
+import { v4 as uuid } from "uuid";
 
 function Form({ listTransactions, setListTransactions }) {
-  const [transation, setTransation] = useState({});
+  const [transation, setTransation] = useState({ uuid: uuid() });
   const [values, setValues] = useState({
     descriptionValue: "",
     numberValue: "",
-    typeValue: "",
   });
 
   function setNewTransaction(event) {
@@ -30,10 +30,9 @@ function Form({ listTransactions, setListTransactions }) {
       setValues({
         descriptionValue: "",
         numberValue: "",
-        typeValue: "",
       });
       setListTransactions([...listTransactions, transation]);
-      setTransation({});
+      setTransation({ uuid: uuid() });
     }
   }
 
@@ -89,7 +88,6 @@ function Form({ listTransactions, setListTransactions }) {
             <label htmlFor="form-type">Tipo de valor</label>
             <div className={`${styles.styleSelect} bg-grey-1`}>
               <Select
-                value={values.typeValue}
                 name="type"
                 id="form-type"
                 options={["Tipo", "Entrada", "Saída"]}
@@ -107,7 +105,6 @@ function Form({ listTransactions, setListTransactions }) {
           type="submit"
           content="Inserir valor"
           globalClass={`bg-primary c-white Inter`}
-          callback={null}
         />
       </form>
     </>

@@ -1,14 +1,13 @@
 import Button from "../Button/index.jsx";
 import styles from "./style.module.css";
-
-export default LandingPage;
+import nuWhite from "/src/assets/nukenzie-white.svg";
+import landingBackground from "/src/assets/landing.svg";
 
 function LandingPage({ setPage }) {
-  document.body.classList.add("dark");
+  document.documentElement.classList.add("dark");
 
   function redirect() {
-    document.body.classList.remove("dark");
-
+    document.documentElement.classList.remove("dark");
     setPage("home");
   }
 
@@ -16,11 +15,7 @@ function LandingPage({ setPage }) {
     <main className={styles.landingPage}>
       <div className="container d-flex d-flex-column">
         <section>
-          <img
-            src="src/assets/nukenzie-white.svg"
-            alt="White Logo"
-            className="logo"
-          />
+          <img src={nuWhite} alt="White Logo" className="logo" />
 
           <h1 className="title-1 c-white">
             Centralize o controle das suas finanças
@@ -38,7 +33,7 @@ function LandingPage({ setPage }) {
 
         <aside>
           <img
-            src="src/assets/landing.svg"
+            src={landingBackground}
             alt="Landing Page Image"
             aria-label="Landing Page Image"
           />
@@ -47,3 +42,5 @@ function LandingPage({ setPage }) {
     </main>
   );
 }
+
+export default LandingPage;

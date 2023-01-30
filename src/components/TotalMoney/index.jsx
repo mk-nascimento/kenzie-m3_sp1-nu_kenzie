@@ -15,7 +15,10 @@ function TotalMoney({ listTransactions = [] }) {
         <div className={`${styles.totalValue} d-flex d-flex-row title-3`}>
           <h3 className="c-grey-4">Valor total:</h3>
           <p className="c-primary">
-            $ <span>{sumTransactions().toFixed(2)}</span>
+            R${" "}
+            <span>
+              {sumTransactions().toFixed(2).toString().replace(".", ",")}
+            </span>
           </p>
         </div>
         <p className="body c-grey-3">O valor se refere ao saldo</p>

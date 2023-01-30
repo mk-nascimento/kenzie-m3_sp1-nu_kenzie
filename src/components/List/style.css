@@ -2,12 +2,21 @@
   max-width: 100%;
 }
 
+.aside__aside-list {
+  gap: 28px;
+}
+
 .aside__empty-list img {
   max-width: 100%;
 }
 
 .aside-list {
   gap: 20px;
+}
+
+.overflow {
+  height: calc((156rem/16) * 3 + (20px*3));
+  overflow-y: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -17,5 +26,10 @@
 
   .aside-list {
     gap: 32px;
+  }
+
+  .overflow {
+    height: calc((90rem/16)* 4 + (32px*2));
+    overflow-y: auto;
   }
 }

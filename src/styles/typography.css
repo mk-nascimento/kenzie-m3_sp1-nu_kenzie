@@ -23,6 +23,7 @@
 }
 
 .headline {
+  pointer-events: none;
   font-weight: 400;
   font-size: calc(16rem/16);
   user-select: none;

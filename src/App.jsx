@@ -14,8 +14,7 @@ function App() {
   const [listTransactions, setListTransactions] = useState([]);
 
   function redirect() {
-    document.body.classList.add("dark");
-
+    document.documentElement.classList.add("dark");
     setPage("index");
   }
 
@@ -38,7 +37,10 @@ function App() {
                 <></>
               )}
             </Home>
-            <List listTransactions={listTransactions} />
+            <List
+              listTransactions={listTransactions}
+              setListTransactions={setListTransactions}
+            />
           </div>
         </>
       )}
